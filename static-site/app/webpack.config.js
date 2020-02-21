@@ -10,10 +10,10 @@ var triviaEndpoint;
 var setupEndpoint = function() {
   switch(process.env.NODE_ENV) {
   case 'production':
-    triviaEndpoint = 'https://api.reinvent-trivia.com';
+    triviaEndpoint = 'https://api.amzgma.me';
     break;
   case 'test':
-    triviaEndpoint = 'https://api-test.reinvent-trivia.com';
+    triviaEndpoint = 'https://api-test.amzgma.me';
     break;
   case 'development':
   case 'local':
